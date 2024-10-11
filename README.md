@@ -3,6 +3,6 @@
 
 This is a repository of Haida Gwaii environmental maps. 
 
-!(screenshot_WdSpd.PNG.png)
+![Map Screenshot](screenshot_WdSpd.PNG)
 
 You can view the interactive map [here](https://biogeoscienceslaboxford.github.io/Onlinemaps/).
