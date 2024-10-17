@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Kelp_2014_2022</title>
+
+
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <base target="_blank">
 <link rel="stylesheet" type="text/css" href="./Qgis2threejs.css">
@@ -17,6 +19,17 @@
 <script src="./Qgis2threejs.js"></script>
 </head>
 <body>
+
+
+ <!-- Header and Subtitle -->
+  <div id="header" style="position: absolute; top: 20px; left: 20px; z-index: 1000; text-align: center;">
+    <h1 style="margin: 0;">Kelp forests in the Salish Sea</h1>
+    <h2 style="margin: 0;">Area per 1km segment from 2014 to 2022</h2>
+    <h3 style="margin: 0;">Reference: Mora-Soto et al., (2024) Back to the past</h3>
+  </div>
+
+
+  
 <div id="view">
   <div id="northarrow"></div>
   <div id="navigation"></div>
@@ -103,6 +116,12 @@
   <div id="layerlist"></div>
 </div>
 
+<!-- legend -->
+  <div id="legend" style="position: absolute; bottom: 10px; left: 10px;">
+  <img src="Legend_AreaKelp.jpeg" alt="Legend" style="width: 200px; height: auto;" />
+</div>
+
+  
 <!-- animation -->
 <div id="narrativebox" class="ef1">
   <div id="narbody">
